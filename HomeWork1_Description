@@ -1,0 +1,19 @@
+
+Homework1 description
+---------------------
+
+
+
+The New York Times has released a free api for its movie reviews: visit http://developer.nytimes.com/docs/movie_reviews_api/ . You may use this or another REST api (just make a call for multiple items and display info for each of these items in the listview/details page) for your first homework assignment:
+
+3pts: Build a new Android Studio Project with two activities, a main activity with a fragment. In the main activity's fragment put a listivew in its xml layout. Put a textview in the detail activity's fragment's xml layout. 
+
+7pts: Get an api key from the api above, and create a url to fetch 20 movie reviews. Put this url into a browser to view the returned JSON. Take the JSON to a JSON formatter on the web (Google it) and place the formatted JSON into a text file. Submit that here, separate from your Android Studio project. 
+
+5pts. Create an AsyncTask to handle a network call to the api. The type parameters should be <Void, Void, String[]>. On the background thread, make the api call and retrieve the JSON. Log both the url used and the JSON returned.
+
+10pts: Using org.json package unpack the JSON to get an List of movie titles. Display these in your listiview.
+
+5pts: Attach an item click listener to the listview. When it is clicked, it should show a toast with the text in the list item.
+
+5pts: Set up a menu item to refresh this list. When it is clicked, it should create an instance of the AsyncTask you made earlier and refresh the data. 
