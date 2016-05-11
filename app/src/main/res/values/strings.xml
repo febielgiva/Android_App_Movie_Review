@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieReviewApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Refresh">Refresh</string>
+    <string name="action_Help">Help</string>
+
+
+</resources>
